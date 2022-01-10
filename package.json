@@ -1,15 +1,12 @@
 {
-  "name": "vue-samp",
-  "version": "0.1.0",
+  "name": "vue-ntt-frontend",
+  "version": "1.0.0",
+  "author": "Ewerton da Costa Vaz",
   "private": true,
   "scripts": {
-    "serve": "start npm run startserver & npm run dev",
-    "build": "vue-cli-service build && npm run buildserver",
-    "buildserver": "tsc -p ./server",
-    "dev": "vue-cli-service serve",
-    "generate": "node server/src/util/generate",
-    "lint": "vue-cli-service lint",
-    "startserver": "node server/dist/index.js"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "^0.24.0",
