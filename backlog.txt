@@ -1,0 +1,9 @@
+To do:
+* Atualizar a documentação e tornar o repositório publico no GitHub
+* Criar profile do usuário permitindo alterar a respectiva senha
+
+Done:
+27/12/2021 - Criar página de ADM onde o admin pode gerenciar os usuários
+23/12/2021 - Implementar a exclusão de eventos
+23/12/2021 - Criar um form para incluir eventos
+22/12/2021 - Ajustar o form de registrar usuário
