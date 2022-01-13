@@ -7,7 +7,8 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     user: null,
-    event: null
+    event: null,
+    response: null
   },
   mutations: {
     SET_USER_DATA (state, userData) {
@@ -23,6 +24,9 @@ export default new Vuex.Store({
     },
     SET_EVENT_DATA (state, eventData) {
       state.event = eventData
+    },
+    SET_RESPONSE_DATA (state, response) {
+      state.response = response
     }
   },
   actions: {
@@ -47,6 +51,13 @@ export default new Vuex.Store({
           commit('SET_EVENT_DATA', data)
         })
     },
+
+    async passwd_change({commit}, passwd_data){
+      return await axios.put('//localhost:3000/user/changepasswd', passwd_data)
+        .then(({data}) => {
+          commit('SET_RESPONSE_DATA', data)
+        })
+    }
   },
   getters: {
     loggedIn (state) {

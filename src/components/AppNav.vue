@@ -15,9 +15,14 @@
     <router-link v-if="!loggedIn" to="/login" class="button">
       Login
     </router-link>
-    <button v-else type="button" class="logoutButton" @click="logout">
-      Logout
-    </button>
+    <div v-else>
+      <button type="button" class="logoutButton" @click="logout">
+        Logout
+      </button>
+      <router-link to="/changepasswd" class="button">
+        Change passwd
+      </router-link>
+    </div>
   </div>
 </template>
 

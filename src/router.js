@@ -5,6 +5,7 @@ import Dashboard from './views/Dashboard.vue'
 import RegisterUser from './views/RegisterUser.vue'
 import LoginUser from './components/LoginUser.vue'
 import UsersAdmin from './views/UsersAdmin.vue'
+import ChangePassword from './views/ChangePassword.vue'
 
 Vue.use(Router)
 
@@ -37,6 +38,12 @@ const router = new Router({
       path: "/users",
       name: "users",
       component: UsersAdmin,
+      meta: { requiresAuth: true },
+    },
+    {
+      path: "/changepasswd",
+      name: "changepasswd",
+      component: ChangePassword,
       meta: { requiresAuth: true },
     }
   ],
