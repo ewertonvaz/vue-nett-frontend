@@ -104,7 +104,7 @@ export default {
       this.form_visible = false
     },
     async exclude (uuid) {
-      const result = await axios.put('//localhost:3000/user/delete', { uuid })
+      const result = await axios.delete('//localhost:3000/user/delete', { data: {uuid} })
         .then( data => data )
         .catch( err => this.errors = err.data.errors )
       if (result.data.user) {

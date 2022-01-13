@@ -1,7 +1,7 @@
 To do:
 
 Done:
-13/01/20221 - Implementada a capacidade do usuário alterar a própria senha
+13/01/2022 - Implementada a capacidade do usuário alterar a própria senha
 10/01/2022 - Atualizada a documentação e criado repositório público no GitHub
 27/12/2021 - Criar página de ADM onde o admin pode gerenciar os usuários
 23/12/2021 - Implementar a exclusão de eventos
