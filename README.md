@@ -1,6 +1,6 @@
-# Vue.Js NTT front end
+# Vue.Js NETT front end
 
-Este projeto é um exemplo de front-end desenvolvido em Vue.js para ser utilzado com meu outro projeto [NTT Auth Template](https://github.com/ewertonvaz/ntt-auth-template.git). 
+Este projeto é um exemplo de front-end desenvolvido em Vue.js para ser utilzado com meu outro projeto [NTT Auth Template](https://github.com/ewertonvaz/nett-auth-template.git). 
 
 Neste front end form implementadas as operações básicas para cadastrar usuários em conjunto com o projeto de servidor citado acima. Além disso, está disponível um cadastro básico de Eventos que permite inclusão e remoção.
 
